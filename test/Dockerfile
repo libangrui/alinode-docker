@@ -1,4 +1,4 @@
-FROM alinode:latest
+FROM alinode-6-jessie:latest
 
 COPY ./app-config.json /root
 COPY ./hello.js /root/
